@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding-top: 127px;
+}
+
+#logo, #sublogo {
+    text-align: center;
+    margin: -8px;
+}
+
+#header {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    min-height: 125px;
+    border-bottom: solid 1px #eaeaea;
+    position:fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#header div:first-of-type {
+    overflow: auto;
+}
+
+#date {
+    float: left;
+    font-size: 11px;
+    color: #444444;
+    font-family: arial;
+}
+
+#price-login {
+    float: right;
+    font-size: 10px;
+    font-family: arial;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 5px;
+}
+
+#price {
+    border: solid 1px #f9d71c;
+    border-radius: 2px;
+    background-color: #f9d71c;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+#login {
+    border: solid 1px #f9d71c;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+#date span {
+    padding-left: 3px;
+    padding-right: 3px;
+    color: #eaeaea;
+}
+
+#logo { 
+    font-weight: bold;
+    font-size: 50px;   
+}
+
+#sublogo {
+    font-size: 12px;
+}
+
+#menu {
+    border-bottom: solid 1px black;
+    text-align: center;
+    padding: 11px; 
+}
+
+#menu a {    
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 11px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 30px;
+}
+
+#content {
+    margin-left: 25px;
+    margin-right: 25px;
+    min-height: 500px;
+}
+
+.section {
+    padding-top: 40px;
+    border-top: solid 8px black;
+    border-bottom: double 3px black;
+    min-height: 300px;
+    margin-bottom: 70px;
+    padding-bottom: 40px;
+}
+
+.section-header {
+    border-top: solid 8px black;
+    border-bottom: solid 1px black; 
+    margin-bottom: 20px;
+    padding-top: 45px;
+}
+
+.section-header h2 {
+    border-bottom: solid 3px black; 
+    /*width: 18%;*/
+    display: inline-block;
+    margin-bottom: 0;
+    padding-bottom: 15px; 
+    font-size: 30px;
+}
+
+.section-header + .section {
+    border-top: 0;
+}
+
+/*.section:not(.section-header + .section) {
+    border-top: solid 7px black;
+}*/
+
+.no-top-border { 
+    border-top: 0;
+}
+
+.column {
+    display: inline-block;
+    border-right: solid 1px #eaeaea;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.column:first-of-type {
+    padding-left: 0;
+}
+.column:last-of-type {
+    padding-right: 0;
+}
+
+.column-header {
+    border-top: solid 8px black; 
+    border-bottom: solid 1px black; 
+    margin-bottom: 20px;
+}
+
+.column-header h2 {
+    border-bottom: solid 4px black; 
+    display: inline-block;
+    margin-bottom: 0; 
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    font-size: 30px;
+}
+
+.no-right-border { border-right: 0 
+}
+
+.width25 {
+    width: 25%;       
+}
+
+.width50 { 
+    width: 50%;
+}
+
+.width33 {
+    width: 33%;
+    /*border: solid 1px red;*/
+}
+
+.news {
+    border-bottom: solid 1px #eaeaea;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* .news-bottom {  
+} */
+
+.news-bottom td:first-of-type {
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h2 {
+    margin-top: 0;
+    line-height: 95%
+}
+
+.header-large {
+    font-size: 34px;
+}
+
+.header-medium {
+    font-size: 30px;  
+}
+
+.header-small {
+    font-size: 22px;  
+}
+
+.header-quote {
+    font-size: 45px;
+    padding-bottom: 40px;
+    font-family: serif;
+    font-stretch: condensed;
+}
+
+.author  {
+    font-size: 10px;
+    color: #555555;
+    font-family: arial;  
+}
+
+.news p, .news-bottom p, .news-center p {
+    font-size: 17px;
+    color: #555555;
+    margin-top: 10px;
+}
+
+.symbol-circle {
+    color: #f9d71c;
+    font-size: 9px;
+    padding: 0;
+    vertical-align: 20%;
+}
+
+.news-exclusive {
+    font-size: 10px;
+    color: #000000;
+    font-family: arial;
+    padding-bottom: 10px;  
+}
+
+.image-description {
+    font-size: 10px;
+    text-align: right;
+    color: #555555;
+    font-family: arial;
+    padding-top: 0;
+    margin-bottom: 20px;
+}
+
+.source {
+    color: black;
+}
+
+
+
+
+
+    
+    
+    
+    
+    
